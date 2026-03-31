@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>Varian&#039;s Unreal Engine Plugins</title>
+      <link>https://N/A</link>
+      <description>Last 10 notes on Varian&#039;s Unreal Engine Plugins</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>Debugging AIF</title>
+    <link>https://N/A/Agent-Intelligence-Framework/Systems/Debugging-AIF</link>
+    <guid>https://N/A/Agent-Intelligence-Framework/Systems/Debugging-AIF</guid>
+    <description><![CDATA[ AIF has a lot of systems and creating a debugger for each one would have consumed a lot of my time. ]]></description>
+    <pubDate>Tue, 31 Mar 2026 11:20:55 GMT</pubDate>
+  </item><item>
+    <title>Agent Intelligence Framework</title>
+    <link>https://N/A/Agent-Intelligence-Framework/Agent-Intelligence-Framework/Agent-Intelligence-Framework</link>
+    <guid>https://N/A/Agent-Intelligence-Framework/Agent-Intelligence-Framework/Agent-Intelligence-Framework</guid>
+    <description><![CDATA[ The Agent Intelligence Framework (AIF) is a plugin that provides a robust framework to build your game using Mass, State Tree’s, Smart Objects and more. ]]></description>
+    <pubDate>Tue, 31 Mar 2026 11:14:33 GMT</pubDate>
+  </item><item>
+    <title>Example Project</title>
+    <link>https://N/A/Agent-Intelligence-Framework/Agent-Intelligence-Framework/Example-Project/Example-Project</link>
+    <guid>https://N/A/Agent-Intelligence-Framework/Agent-Intelligence-Framework/Example-Project/Example-Project</guid>
+    <description><![CDATA[ AIF’s example project is built on top of Unreal’s Game Animation Sample Project (or GASP for short) as I think it’s the best template Epic provides. ]]></description>
+    <pubDate>Tue, 31 Mar 2026 11:14:33 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>
