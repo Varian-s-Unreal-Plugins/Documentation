@@ -1,5 +1,5 @@
 ---
-topic: [[Mass]]
+topic: "[[Mass]]"
 publish: true
 ---
 

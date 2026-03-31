@@ -1,5 +1,6 @@
 ---
 publish: true
+topic: "[[Agent Intelligence Framework]]"
 ---
 
 The primary framework AIF uses to run its gameplay logic is through Mass, an ECS that is possibly going to become the future of all Unreal Engine gameplay development.

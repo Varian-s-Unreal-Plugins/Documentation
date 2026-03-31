@@ -1,5 +1,5 @@
 ---
-topic: [[Mass]]
+topic: "[[Mass]]"
 publish: true
 ---
 The primary way of creating an entity is through a entity config data asset. There are many tutorials out there that cover this topic, but here are my recommendations and notes.
