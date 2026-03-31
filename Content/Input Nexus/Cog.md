@@ -1,6 +1,7 @@
 ---
 topic: "[[Input Nexus]]"
 publish: true
+priority: "1"
 ---
 # Cog
 `InputNexus` provides a `Cog` debugger out of the box.

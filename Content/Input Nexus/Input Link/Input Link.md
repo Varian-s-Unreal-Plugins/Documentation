@@ -1,6 +1,7 @@
 ---
 topic: "[[Input Nexus]]"
 publish: true
+priority: "2"
 ---
 # Input Link
 When it comes to running meaningful gameplay code, `InputLinks` is where that code is stored.

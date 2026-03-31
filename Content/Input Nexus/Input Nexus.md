@@ -10,7 +10,7 @@ InputNexus is a plugin that streamlines how Enhanced Input System is handled and
 
 The vast majority of gameplay logic around Enhanced Input System can be found in the player controller and pawn, which slowly leads to those classes becoming massively bloated. The `AC_InputNexus` actor component is designed to host your input actions and their associated `InputLinks`, which then trigger the appropriate events.
 
-[[2026-03-31 19-29-37.png]]
+![[2026-03-31 19-29-37.png]]
 
 ## FAQ
 

@@ -1,6 +1,7 @@
 ---
 topic: "[[Input Nexus]]"
 publish: true
+priority: "5"
 ---
 # Nexus Component
 
