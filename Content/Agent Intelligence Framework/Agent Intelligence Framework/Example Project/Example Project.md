@@ -2,7 +2,6 @@
 topic: "[[Agent Intelligence Framework]]"
 publish: true
 ---
-
 `AIF`'s example project is built on top of Unreal's `Game Animation Sample Project` (or `GASP` for short) as I think it's the best template Epic provides. But I've removed many uneccessary assets (in order to reduce disk size and complexity) and made some small tweaks.
 
 ## Structure
