@@ -1,3 +1,8 @@
+---
+topic: [[Mass]]
+publish: true
+---
+
 `AIF` provides a very simple fragment to categories specific signals to specific input actions and forwarding those signals to an entities and their children.
 
 The primary use case for this is for action bars, where an entity might have children entities (such as ability entities) you want to signal when a specific input action is triggered. It is then up to the signal processor to tell that entity to do the gameplay logic you want.
