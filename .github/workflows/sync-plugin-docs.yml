@@ -1,0 +1,59 @@
+ name: Sync Plugin Documentation (Reusable)
+  on:
+    workflow_call:
+      inputs:
+        target_subfolder:
+          description: "Subfolder under Content/ where this plugin's docs land (e.g. 'OmniToolbox')"
+          required: true
+          type: string
+        source_folder:
+          description: "Documentation folder in the calling repo"
+          required: false
+          type: string
+          default: "Documentation"
+      secrets:
+        DOCS_PAT:
+          description: "PAT with Contents: write access to the Documentation repo"
+          required: true
+
+  jobs:
+    sync:
+      runs-on: ubuntu-latest
+      permissions:
+        contents: read
+      steps:
+        - name: Checkout plugin repo
+          uses: actions/checkout@v4
+          with:
+            path: plugin-source
+
+        - name: Checkout Documentation repo (sparse)
+          uses: actions/checkout@v4
+          with:
+            repository: Varian-s-Unreal-Plugins/Documentation
+            token: ${{ secrets.DOCS_PAT }}
+            path: docs-hub
+            sparse-checkout: |
+              Content
+            sparse-checkout-cone-mode: false
+
+        - name: Sync documentation
+          run: |
+            TARGET="docs-hub/Content/${{ inputs.target_subfolder }}"
+            mkdir -p "$TARGET"
+            rsync -av --delete \
+              "plugin-source/${{ inputs.source_folder }}/" \
+              "$TARGET/"
+
+        - name: Commit and push
+          run: |
+            cd docs-hub
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add "Content/${{ inputs.target_subfolder }}"
+            if git diff --staged --quiet; then
+              echo "No changes — skipping commit."
+            else
+              git commit -m "docs: sync ${{ inputs.target_subfolder }} from ${{ github.repository }}@${{ github.sha}}"
+              git push
+            fi
