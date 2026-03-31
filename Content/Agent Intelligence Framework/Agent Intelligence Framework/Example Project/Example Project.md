@@ -1,4 +1,5 @@
 ---
+topic: "[[Agent Intelligence Framework]]"
 publish: true
 ---
 

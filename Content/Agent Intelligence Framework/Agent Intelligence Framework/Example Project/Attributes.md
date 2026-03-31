@@ -1,5 +1,5 @@
 ---
-topic: "[[Projects/Unreal Engine/AIF/Documentation/Agent Intelligence Framework/Example Project/Example Project|Example Project]]"
+topic: "[[Example Project]]"
 publish: true
 ---
 

@@ -1,5 +1,6 @@
 ---
-topic: "[[Projects/Unreal Engine/AIF/Documentation/Agent Intelligence Framework/Example Project/Example Project|Example Project]]"
+topic: "[[Example Project]]"
+publish: true
 ---
 The nameplates found in the example project are a demonstration of `AIF`'s Game Feature integration.
 
