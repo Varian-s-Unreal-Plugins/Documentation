@@ -1,5 +1,6 @@
 ---
 topic: "[[Projects/Unreal Engine/AIF/Documentation/Agent Intelligence Framework/Agent Intelligence Framework|Agent Intelligence Framework]]"
+publish: true
 ---
 `AIF` uses a slightly different approach to function libraries. It uses a raw object with virtual functions. Then, through the project settings, we get the class default object and call the functions that way.
 This approach allows users to create a child of the function library class and override the functions. All while designers and other programmers continue interacting with the functions as if it was a plain function library without making modifications to the plugin.
