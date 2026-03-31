@@ -1,5 +1,5 @@
 ---
-topic: "[[Agent Intelligence Framework]]"
+topic: "[[Projects/Unreal Engine/AIF/Documentation/Agent Intelligence Framework/Agent Intelligence Framework|Agent Intelligence Framework]]"
 publish: true
 ---
 `AIF` uses a slightly different approach to function libraries. It uses a raw object with virtual functions. Then, through the project settings, we get the class default object and call the functions that way.
