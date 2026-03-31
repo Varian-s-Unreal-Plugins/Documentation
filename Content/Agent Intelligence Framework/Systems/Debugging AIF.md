@@ -1,5 +1,6 @@
 ---
 topic: "[[Projects/Unreal Engine/AIF/Documentation/Agent Intelligence Framework/Agent Intelligence Framework|Agent Intelligence Framework]]"
+publish: true
 ---
 `AIF` has a lot of systems and creating a debugger for each one would have consumed a lot of my time. In an effort to implement acceptable debuggers, `AIF` builds on top of `Mass`'s built-in debugger you can activate with the `'` (tilda) key and from there you can select the entity closest to the center of your screen through `Shift + P`. `AIF` then provides numerous console commands for each system to enable or disable debug code.
 
